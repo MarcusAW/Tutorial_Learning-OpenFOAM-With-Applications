@@ -1,0 +1,1 @@
+cd /opt/software/software/OpenFOAM/v2106-foss-2021a/OpenFOAM-v2106/tutorials

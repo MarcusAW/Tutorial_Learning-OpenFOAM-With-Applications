@@ -1,0 +1,151 @@
+/*--------------------------------*- C++ -*----------------------------------*\
+| =========                 |                                                 |
+| \\      /  F ield         | OpenFOAM: The Open Source CFD Toolbox           |
+|  \\    /   O peration     | Version:  v2106                                 |
+|   \\  /    A nd           | Website:  www.openfoam.com                      |
+|    \\/     M anipulation  |                                                 |
+\*---------------------------------------------------------------------------*/
+FoamFile
+{
+    version     2.0;
+    format      ascii;
+    arch        "LSB;label=32;scalar=64";
+    class       regIOobject;
+    location    "constant/polyMesh";
+    object      faceZones;
+    meta
+    {
+        names           3 ( middleDownstreammiddleUpstream0MasterZone middleDownstreammiddleUpstream0SlaveZone middleDownstreammiddleUpstream0CutFaceZone );
+    }
+}
+// * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * //
+
+3
+(
+middleDownstreammiddleUpstream0MasterZone
+{
+    type faceZone;
+faceLabels      List<label> 
+100
+(
+4999
+9999
+14999
+19999
+24999
+29999
+34999
+39999
+44999
+49999
+54999
+59999
+64999
+69999
+74999
+79999
+84999
+89999
+94999
+99999
+104999
+109999
+114999
+119999
+124999
+129999
+134999
+139999
+144999
+149999
+154999
+159999
+164999
+169999
+174999
+179999
+184999
+189999
+194999
+199999
+204999
+209999
+214999
+219999
+224999
+229999
+234999
+239999
+244999
+249999
+304499
+309499
+314499
+319499
+324499
+329499
+334499
+339499
+344499
+349499
+354499
+359499
+364499
+369499
+374499
+379499
+384499
+389499
+394499
+399499
+404499
+409499
+414499
+419499
+424499
+429499
+434499
+439499
+444499
+449499
+454499
+459499
+464499
+469499
+474499
+479499
+484499
+489499
+494499
+499499
+504499
+509499
+514499
+519499
+524499
+529499
+534499
+539499
+544499
+546999
+)
+;
+flipMap         List<bool> 100{1};
+}
+
+middleDownstreammiddleUpstream0SlaveZone
+{
+    type faceZone;
+faceLabels      List<label> 0();
+flipMap         List<bool> 0();
+}
+
+middleDownstreammiddleUpstream0CutFaceZone
+{
+    type faceZone;
+faceLabels      List<label> 0();
+flipMap         List<bool> 0();
+}
+)
+
+// ************************************************************************* //
